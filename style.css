@@ -14,6 +14,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -23,7 +24,7 @@ section{
     width: 80%;}
     .link-button{
         text-decoration: none;
-        background-image: linear-gradient(orange,tomato);
+        background-image: linear-gradient(rgb(255, 0, 106),tomato);
         padding: 10px 40px;
         color: papayawhip; 
         font-weight: 700;
@@ -33,6 +34,10 @@ section{
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat ;
 }
-
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat ;
+     background-position: right;
+}
 
 
