@@ -7,18 +7,21 @@ body{
  h1{
      font-size: 50px;
 
+
 }
 
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left:2% ;
+    
+
 }
 .half-width img{
     width: 80%;}
@@ -37,7 +40,34 @@ background-repeat: no-repeat ;
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat ;
-     background-position: right;
+    background-position: right;
 }
+  .aam-experience{
+      background-image: url(images/exp-bg.png);
+      background-repeat: no-repeat;
+      background-position: left;
+  }
+.jaam{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+    
+}
+ #web-experience{ 
+     border-left: 7px solid;
+     border-image: linear-gradient(blue,cyan) ;
+     border-image-slice: 1;
+ }
+ #full-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(pink,rgb(226, 98, 226)) ;
+    border-image-slice: 1;
+ }
 
-
+footer p{
+    text-align: center;
+}
